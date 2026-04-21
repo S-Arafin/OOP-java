@@ -1,6 +1,6 @@
 package ClassAndObject;
-class Student {
-    String name;
+public class Student {
+    public String name;
     int age;
 
     public void printInfo(){
@@ -14,7 +14,7 @@ class Student {
     Student(){
 
     }
-    Student(String name, int age){
+    public Student(String name, int age){
         System.out.println("Student Constructor");
         this.name = name;
         this.age = age;
